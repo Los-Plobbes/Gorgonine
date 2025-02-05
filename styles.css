@@ -5,6 +5,7 @@
     text-align: center;
 }
 
-body{
-    
-}
+div.sticky {
+    position: sticky;
+    top: 0;
+  }
