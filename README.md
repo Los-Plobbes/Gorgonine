@@ -1,1 +1,1 @@
-# gorgonine is cool!
+# Gorgonine is cool!
