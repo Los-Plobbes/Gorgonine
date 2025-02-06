@@ -8,4 +8,35 @@
 div.sticky {
     position: sticky;
     top: 0;
-  }
+}
+
+div.header{
+    width: 100%;
+    background-color: rgb(197, 0, 86);
+    display: flex;
+    
+}
+h1.header{
+    color: white;
+}
+
+.unselectable{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    pointer-events:none
+}  
+
+.card{
+    --bs-border-radius: 0rem;
+}
+
+.card-img-overlay{
+    display: inline;
+    margin: 25;
+}
+
+.card-img{
+    filter: blur(8px) brightness(.5) contrast(70%);
+}
