@@ -1,42 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@370&display=swap');
 
-*{
+.archivo-black-regular {
     font-family: "Archivo Black", serif;
-    text-align: center;
+    font-weight: 400;
+    font-style: normal;
 }
 
-div.sticky {
-    position: sticky;
-    top: 0;
+.outfit-font {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 370;
+    font-style: normal;
+}
+  
+
+.text-small {
+    font-size: 85%;
 }
 
-div.header{
-    width: 100%;
-    background-color: rgb(197, 0, 86);
-    display: flex;
-    
-}
-h1.header{
-    color: white;
-}
-
-.unselectable{
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
-    pointer-events:none
-}  
-
-.card{
-    --bs-border-radius: 0rem;
-}
-
-.card-img-overlay{
-    display: inline;
-    margin: 25;
-}
-
-.card-img{
-    filter: blur(8px) brightness(.5) contrast(70%);
-}
